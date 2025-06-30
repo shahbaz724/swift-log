@@ -59,8 +59,7 @@ public struct Logger {
             self.label = label
             self.handler = handler
         }
-
-        @inlinable
+        
         func copy() -> Storage {
             Storage(label: self.label, handler: self.handler)
         }
