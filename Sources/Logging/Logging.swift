@@ -71,8 +71,7 @@ public struct Logger {
         self._storage.label
     }
 
-    /// A computed property to access the `LogHandler`.
-    @inlinable
+    /// A computed property to access the `LogHandler`.    
     public var handler: any LogHandler {
         get {
             self._storage.handler
